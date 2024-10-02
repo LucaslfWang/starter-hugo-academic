@@ -14,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Quantitative Developer of Hedge Fund
+role: Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Beijing University of Technology
-    url: https://www.bjut.edu.cn/
+  - name: Alpha2fund Asset Management
+    url: http://www.alpha2fund.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My work interests include data science, distributed system, data science and machine learning.
@@ -52,27 +52,27 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/lucaslfwang
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/lucaslfwang
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
   #   icon_pack: fas
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/lucaslfwang
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/lucaslfwang
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/reallongfeiwang/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'longfei_wang.tech@outlook.com'
@@ -81,5 +81,5 @@ email: 'longfei_wang.tech@outlook.com'
 highlight_name: true
 ---
 
-Lucas Wang is a software engineer who currently works for a hedge fund and is mainly responsible for massive data processing, infrastructure construction and maintenance. He previously worked for a well-known Internet company in China and is very interested in data science and machine learning.
+I am a software engineer who currently works for a hedge fund and is mainly responsible for massive data processing, infrastructure construction and maintenance. He previously worked for a well-known Internet company in China and is very interested in data science and machine learning.
 {style="text-align: justify;"}

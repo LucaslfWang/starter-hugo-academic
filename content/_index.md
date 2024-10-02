@@ -41,61 +41,70 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: Python
-          description: 50%
-          icon: r-project
-          icon_pack: fab
-        - name: C++
-          description: 30%
-          icon: chart-line
-          icon_pack: fas
-        - name: Rust
-          description: 20%
-          icon: camera-retro
-          icon_pack: fas
-  - block: experience
-    id: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Quantitative Developer
-          company: Alpha2fund Asset Management
-          company_url: ''
-          company_logo: alpha2fund
-          location: Beijing, China
-          date_start: '2023-05-21'
-          date_end: ''
-          description: Data engineering and developed IT infrastructure.
+  # - block: features
+  #   content:
+  #     title: Skills
+  #     items:
+  #       - name: Python
+  #         description: 50%
+  #         icon: r-project
+  #         icon_pack: fab
+  #       - name: C++
+  #         description: 30%
+  #         icon: chart-line
+  #         icon_pack: fas
+  #       - name: Rust
+  #         description: 20%
+  #         icon: camera-retro
+  #         icon_pack: fas
+  # - block: experience
+  #   id: experience
+  #   content:
+  #     title: Experience
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Experiences.
+  #     #   Add/remove as many `experience` items below as you like.
+  #     #   Required fields are `title`, `company`, and `date_start`.
+  #     #   Leave `date_end` empty if it's your current employer.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - title: Software Engineer
+  #         company: Alpha2fund Asset Management
+  #         company_url: ''
+  #         company_logo: alpha2fund
+  #         location: Beijing, China
+  #         date_start: '2023-05-21'
+  #         date_end: ''
+  #         # description: Data engineering and developed Infrastructure.
 
-        - title: Software Engineer
-          company: Tencent Group
-          company_url: ''
-          company_logo: tencent
-          location: Beijing, China
-          date_start: '2022-07-01'
-          date_end: '2023-01-17'
-          description: Map data platform development and improvement.
+  #       - title: Software Engineer
+  #         company: Tencent
+  #         company_url: 'https://www.tencent.com/en-us/'
+  #         company_logo: tencent
+  #         location: Beijing, China
+  #         date_start: '2022-07-01'
+  #         date_end: '2023-01-17'
+  #         # description: Map data platform development and improvement.
 
-        - title: Software Engineer Intern
-          company: Kuaishou Inc.
-          company_url: ''
-          company_logo: kuaishou
-          location: Beijing, China
-          date_start: '2022-05-01'
-          date_end: '2022-08-17'
-          description: Operation and maintenance platform research and development.
+  #       - title: Software Engineer Intern
+  #         company: Kuaishou Inc.
+  #         company_url: 'https://www.kuaishou.com/en'
+  #         company_logo: kuaishou
+  #         location: Beijing, China
+  #         date_start: '2022-05-01'
+  #         date_end: '2022-08-17'
+  #         # description: Operation and maintenance platform research and development.
+
+  #       - title: Research Assistant
+  #         company: Tsinghua University
+  #         company_url: 'https://www.tsinghua.edu.cn/en/'
+  #         company_logo: kuaishou
+  #         location: Beijing, China
+  #         date_start: '2020-12-01'
+  #         date_end: '2021-02-17'
+  #         # description: Operation and maintenance platform research and development.
     design:
       columns: '2'
   # - block: accomplishments
@@ -137,33 +146,33 @@ sections:
   #         url: ''
   #   design:
   #     columns: '2'
-  # - block: collection
-  #   id: posts
-  #   content:
-  #     title: Recent Posts
-  #     subtitle: ''
-  #     text: ''
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       folders:
-  #         - post
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: compact
-  #     columns: '2'
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
   # - block: portfolio
   #   id: projects
   #   content:
@@ -192,6 +201,7 @@ sections:
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
   - block: markdown
+    id: gallery
     content:
       title: Gallery
       subtitle: ''
